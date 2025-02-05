@@ -5,15 +5,6 @@
  * @version      2.0
  */
 
-/* Hide Scrollbars */
-* {
-  scrollbar-width: unset !important;
-  scrollbar-color: unset !important;
-}
-:is(:root, .theme-light, .theme-dark, .theme-darker, .theme-midnight, .visual-refresh) {
-  --overflow: hidden !important;
-}
-
 /* Hide titlebar elements */
 div[class*='bar_'] > div[class*='trailing'] {
   display: none;
@@ -64,7 +55,7 @@ div[class*='children'] > div > svg[class*='actionIcon'] {
   display: none;
 }
 
-/* Hide promoted games/apps in Applications launcher */
+/* Hide games/promoted apps in Applications launcher */
 section[aria-label='Application Launcher'] > div > div > div > div > div > div > div > div > div:nth-child(n+3)  {
   display: none;
 }
