@@ -1,0 +1,188 @@
+/**
+ * @name         Accent Colourizer
+ * @description  Replaces Discord Accent Colours with Selected Colour
+ * @author       Katzteam
+ * @version      2.0
+ */
+ 
+ :is(:root, .theme-light, .theme-dark, .theme-darker, .theme-midnight, .visual-refresh) {
+    /* Change this first value */
+    --brand: rgb(255,0,255) !important;
+
+    --brand-100: var(--brand) !important;
+    --brand-130: var(--brand) !important;
+    --brand-160: var(--brand) !important;
+    --brand-200: var(--brand) !important;
+    --brand-230: var(--brand) !important;
+    --brand-260: var(--brand) !important;
+    --brand-300: var(--brand) !important;
+    --brand-330: var(--brand) !important;
+    --brand-345: var(--brand) !important;
+    --brand-360: var(--brand) !important;
+    --brand-400: var(--brand) !important;
+    --brand-430: var(--brand) !important;
+    --brand-460: var(--brand) !important;
+    --brand-500: var(--brand) !important;
+    --brand-530: var(--brand) !important;
+    --brand-560: var(--brand) !important;
+    --brand-600: var(--brand) !important;
+    --brand-630: var(--brand) !important;
+    --brand-660: var(--brand) !important;
+    --brand-700: var(--brand) !important;
+    --brand-730: var(--brand) !important;
+    --brand-760: var(--brand) !important;
+    --brand-800: var(--brand) !important;
+    --brand-830: var(--brand) !important;
+    --brand-860: var(--brand) !important;
+    --brand-900: var(--brand) !important;
+    --text-link: var(--brand) !important;
+    --blurple-1: var(--brand) !important;
+    --blurple-2: var(--brand) !important;
+    --blurple-3: var(--brand) !important;
+    --blurple-4: var(--brand) !important;
+    --blurple-5: var(--brand) !important;
+    --blurple-6: var(--brand) !important;
+    --blurple-7: var(--brand) !important;
+    --blurple-8: var(--brand) !important;
+    --blurple-9: var(--brand) !important;
+    --blurple-10: var(--brand) !important;
+    --blurple-11: var(--brand) !important;
+    --blurple-12: var(--brand) !important;
+    --blurple-13: var(--brand) !important;
+    --blurple-14: var(--brand) !important;
+    --blurple-15: var(--brand) !important;
+    --blurple-16: var(--brand) !important;
+    --blurple-17: var(--brand) !important;
+    --blurple-18: var(--brand) !important;
+    --blurple-19: var(--brand) !important;
+    --blurple-20: var(--brand) !important;
+    --blurple-21: var(--brand) !important;
+    --blurple-22: var(--brand) !important;
+    --blurple-23: var(--brand) !important;
+    --blurple-24: var(--brand) !important;
+    --blurple-25: var(--brand) !important;
+    --blurple-26: var(--brand) !important;
+    --blurple-27: var(--brand) !important;
+    --blurple-28: var(--brand) !important;
+    --blurple-29: var(--brand) !important;
+    --blurple-30: var(--brand) !important;
+    --blurple-31: var(--brand) !important;
+    --blurple-32: var(--brand) !important;
+    --blurple-33: var(--brand) !important;
+    --blurple-34: var(--brand) !important;
+    --blurple-35: var(--brand) !important;
+    --blurple-36: var(--brand) !important;
+    --blurple-37: var(--brand) !important;
+    --blurple-38: var(--brand) !important;
+    --blurple-39: var(--brand) !important;
+    --blurple-40: var(--brand) !important;
+    --blurple-41: var(--brand) !important;
+    --blurple-42: var(--brand) !important;
+    --blurple-43: var(--brand) !important;
+    --blurple-44: var(--brand) !important;
+    --blurple-45: var(--brand) !important;
+    --blurple-46: var(--brand) !important;
+    --blurple-47: var(--brand) !important;
+    --blurple-48: var(--brand) !important;
+    --blurple-49: var(--brand) !important;
+    --blurple-50: var(--brand) !important;
+    --blurple-51: var(--brand) !important;
+    --blurple-52: var(--brand) !important;
+    --blurple-53: var(--brand) !important;
+    --blurple-54: var(--brand) !important;
+    --blurple-55: var(--brand) !important;
+    --blurple-56: var(--brand) !important;
+    --blurple-57: var(--brand) !important;
+    --blurple-58: var(--brand) !important;
+    --blurple-59: var(--brand) !important;
+    --blurple-60: var(--brand) !important;
+    --blurple-61: var(--brand) !important;
+    --blurple-62: var(--brand) !important;
+    --blurple-63: var(--brand) !important;
+    --blurple-64: var(--brand) !important;
+    --blurple-65: var(--brand) !important;
+    --blurple-66: var(--brand) !important;
+    --blurple-67: var(--brand) !important;
+    --blurple-68: var(--brand) !important;
+    --blurple-69: var(--brand) !important;
+    --blurple-70: var(--brand) !important;
+    --blurple-71: var(--brand) !important;
+    --blurple-72: var(--brand) !important;
+    --blurple-73: var(--brand) !important;
+    --blurple-74: var(--brand) !important;
+    --blurple-75: var(--brand) !important;
+    --blurple-76: var(--brand) !important;
+    --blurple-77: var(--brand) !important;
+    --blurple-78: var(--brand) !important;
+    --blurple-79: var(--brand) !important;
+    --blurple-80: var(--brand) !important;
+    --blurple-81: var(--brand) !important;
+    --blurple-82: var(--brand) !important;
+    --blurple-83: var(--brand) !important;
+    --blurple-84: var(--brand) !important;
+    --blurple-85: var(--brand) !important;
+    --blurple-86: var(--brand) !important;
+    --blurple-87: var(--brand) !important;
+    --blurple-88: var(--brand) !important;
+    --blurple-89: var(--brand) !important;
+    --blurple-90: var(--brand) !important;
+    --blurple-91: var(--brand) !important;
+    --blurple-92: var(--brand) !important;
+    --blurple-93: var(--brand) !important;
+    --blurple-94: var(--brand) !important;
+    --blurple-95: var(--brand) !important;
+    --blurple-96: var(--brand) !important;
+    --blurple-97: var(--brand) !important;
+    --blurple-98: var(--brand) !important;
+    --blurple-99: var(--brand) !important;
+    --blurple-100: var(--brand) !important;
+    --opacity-blurple-1: hsla(from var(--brand), 100%, 50%, 0.01) !important;
+    --opacity-blurple-2: hsla(from var(--brand), 100%, 50%, 0.02) !important;
+    --opacity-blurple-4: hsla(from var(--brand), 100%, 50%, 0.04) !important;
+    --opacity-blurple-8: hsla(from var(--brand), 100%, 50%, 0.08) !important;
+    --opacity-blurple-12: hsla(from var(--brand), 100%, 50%, 0.12) !important;
+    --opacity-blurple-16: hsla(from var(--brand), 100%, 50%, 0.16) !important;
+    --opacity-blurple-20: hsla(from var(--brand), 100%, 50%, 0.2) !important;
+    --opacity-blurple-24: hsla(from var(--brand), 100%, 50%, 0.24) !important;
+    --opacity-blurple-28: hsla(from var(--brand), 100%, 50%, 0.28) !important;
+    --opacity-blurple-32: hsla(from var(--brand), 100%, 50%, 0.32) !important;
+    --opacity-blurple-36: hsla(from var(--brand), 100%, 50%, 0.36) !important;
+    --opacity-blurple-40: hsla(from var(--brand), 100%, 50%, 0.4) !important;
+    --opacity-blurple-44: hsla(from var(--brand), 100%, 50%, 0.44) !important;
+    --opacity-blurple-48: hsla(from var(--brand), 100%, 50%, 0.48) !important;
+    --opacity-blurple-52: hsla(from var(--brand), 100%, 50%, 0.52) !important;
+    --opacity-blurple-56: hsla(from var(--brand), 100%, 50%, 0.56) !important;
+    --opacity-blurple-60: hsla(from var(--brand), 100%, 50%, 0.60) !important;
+    --opacity-blurple-64: hsla(from var(--brand), 100%, 50%, 0.64) !important;
+    --opacity-blurple-68: hsla(from var(--brand), 100%, 50%, 0.68) !important;
+    --opacity-blurple-72: hsla(from var(--brand), 100%, 50%, 0.72) !important;
+    --opacity-blurple-76: hsla(from var(--brand), 100%, 50%, 0.76) !important;
+    --opacity-blurple-80: hsla(from var(--brand), 100%, 50%, 0.80) !important;
+    --opacity-blurple-84: hsla(from var(--brand), 100%, 50%, 0.84) !important;
+    --opacity-blurple-88: hsla(from var(--brand), 100%, 50%, 0.88) !important;
+    --opacity-blurple-92: hsla(from var(--brand), 100%, 50%, 0.92) !important;
+    --opacity-blurple-96: hsla(from var(--brand), 100%, 50%, 0.96) !important;
+    --mention: hsla(from var(--brand), 100%, 50%, 0.08) !important;
+    --mention-hover: hsla(from var(--brand), 100%, 50%, 0.05) !important;
+    --background-message-highlight: var(--mention) !important;
+    --background-message-highlight-hover: var(--mention-hover) !important;
+    --background-mentioned: var(--mention) !important;
+    --background-mentioned-hover: var(--mention-hover) !important;
+    --mention-background: var(--mention) !important;
+    --mention-foreground: var(--brand) !important;
+    --info-warning-foreground: var(--brand) !important;
+    --text-brand: var(--brand) !important;
+  }
+
+/* Redesign Toggles */
+div[class*='checked'] {
+  background-color: var(--brand) !important;
+}
+div[class*='checked'] > svg > svg > path {
+  fill: var(--brand) !important;
+}
+
+/* Add server button */
+svg[class*='circleIcon_db6521'] {
+  color: var(--brand);
+}

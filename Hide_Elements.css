@@ -1,0 +1,71 @@
+/**
+ * @name         Hide Useless/Paid Elements
+ * @description  Hides a bunch of useless/Nitro related elements
+ * @author       Katzteam
+ * @version      2.0
+ */
+
+/* Hide Scrollbars */
+* {
+  scrollbar-width: unset !important;
+  scrollbar-color: unset !important;
+}
+:is(:root, .theme-light, .theme-dark, .theme-darker, .theme-midnight, .visual-refresh) {
+  --overflow: hidden !important;
+  }
+
+/* Hide titlebar elements */
+div[class*='bar_'] > div[class*='trailing'] {
+  display: none;
+}
+
+/* Hide threads & weird useless dot from top bar */
+div[class*='toolbar'] > div[aria-label='Threads'], div[class*='toolbar'] > svg[class*='dot_'] {
+  display: none;
+}
+
+/* Hide Events */
+li:has(div[id*='upcoming-events']), ul[aria-label='Channels'] > div[style='height: 12px;'] {
+  display: none;
+}
+
+/* Hide gift button */
+button[aria-label='Send a gift'] {
+  display: none;
+}
+
+/* Hide Nitro, Boost, Merch, Subscription settings */
+div[class*='premiumTab'], div[aria-label='Subscriptions'], div[aria-label='User Settings'] > div[role='tab']:not([aria-label]):nth-of-type(15), div[aria-label='Merch'] {
+  display: none;
+}
+
+/* Hide shop, Nitro buttons in DMs */
+li:has(a[href='/shop']), li:has(a[href='/store']) {
+  display: none;
+}
+
+/* Hide Active Now sidebar */
+div[class*='nowPlayingColumn'] {
+  display: none;
+}
+
+/* Hide Edit image button */
+div[class*='hoverButtonGroup']:has(div[aria-label='Edit Image with Apps']) {
+  display: none;
+}
+
+/* Hide Activity Sidebar */
+div[class*='membersGroup']:has(span[class*='headerContainer']), div[class*='openOnHover'] {
+  display: none;
+}
+
+/* Hide hover buttons from channels */
+div[class*='children'] > div > svg[class*='actionIcon'] {
+  display: none;
+}
+
+/* Hide promoted games/apps in Applications launcher */
+section[aria-label='Application Launcher'] > div > div > div > div > div > div > div > div > div:nth-child(n+3)  {
+  display: none;
+}
+
