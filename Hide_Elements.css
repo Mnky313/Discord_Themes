@@ -60,3 +60,7 @@ section[aria-label='Application Launcher'] > div > div > div > div > div > div >
   display: none;
 }
 
+/* Hide discovery/download apps buttons on server sidebar */
+div[class*='listItem']:has(div[class*='discoveryIcon']), div[class*='listItem']:has(div[aria-label*='Download Apps']) {
+  display: none !important;
+}
