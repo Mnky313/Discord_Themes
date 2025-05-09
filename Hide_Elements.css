@@ -20,6 +20,11 @@ li:has(div[id*='upcoming-events']), ul[aria-label='Channels'] > div[style='heigh
   display: none;
 }
 
+/* Hide Server Boosts in channel list */
+li:has(div[id*='skill-trees']), ul[aria-label='Channels'] > div[style='height: 12px;'] {
+  display: none;
+}
+
 /* Hide gift button */
 button[aria-label='Send a gift'] {
   display: none;
