@@ -69,3 +69,8 @@ section[aria-label='Application Launcher'] > div > div > div > div > div > div >
 div[class*='listItem']:has(div[class*='discoveryIcon']), div[class*='listItem']:has(div[aria-label*='Download Apps']) {
   display: none !important;
 }
+
+/* Hide CPU resource intensive pulsating gradiant on voice chat */
+div[class*='pulseGradient'] {
+  display: none !important;
+}
