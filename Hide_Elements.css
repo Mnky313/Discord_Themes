@@ -15,6 +15,11 @@ div[class*='toolbar'] > div[aria-label='Threads'], div[class*='toolbar'] > svg[c
   display: none;
 }
 
+/* Hide notice bars (claim free gifts with nitro, etc.) */
+div[class*='container_'] > div[class*='base_'] > div[class*='notice_'] {
+    display:none !important;
+}
+
 /* Hide Events */
 li:has(div[id*='upcoming-events']), ul[aria-label='Channels'] > div[style='height: 12px;'] {
   display: none;
