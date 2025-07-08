@@ -36,7 +36,7 @@ button[aria-label='Send a gift'] {
 }
 
 /* Hide Nitro, Boost, Merch, Subscription settings */
-div[class*='premiumTab'], div[aria-label='Subscriptions'], div[aria-label='User Settings'] > div[role='tab']:not([aria-label]):nth-of-type(15), div[aria-label='Merch'] {
+div[class*='premiumTab'], div[aria-label='Subscriptions'], div[aria-label='Merch'] {
   display: none;
 }
 
