@@ -31,8 +31,8 @@ li:has(div[id*='skill-trees']), ul[aria-label='Channels'] > div[style='height: 1
 }
 
 /* Hide gift button */
-button[aria-label='Send a gift'] {
-  display: none;
+div[aria-label='Send a gift'], button[aria-label='Send a gift'] {
+  display: none !important;
 }
 
 /* Hide Nitro, Boost, Merch, Subscription settings */
