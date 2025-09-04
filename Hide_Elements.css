@@ -79,3 +79,8 @@ div[class*='listItem']:has(div[class*='discoveryIcon']), div[class*='listItem']:
 div[class*='pulseGradient'] {
   display: none !important;
 }
+
+/* Hide edit channel status when joined to a voice channel */
+a[data-list-item-id*='channels_'] > div[class*='linkBottom_'] {
+    display: none !important;
+}
