@@ -61,7 +61,7 @@ div[class*='membersGroup']:has(span[class*='headerContainer']), div[class*='open
 }
 
 /* Hide hover buttons from channels */
-div[class*='children'] > div > svg[class*='actionIcon'] {
+div[class*='children'] > span > div > svg[class*='actionIcon'] {
   display: none;
 }
 
