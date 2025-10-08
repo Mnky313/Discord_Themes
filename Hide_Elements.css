@@ -84,3 +84,8 @@ div[class*='pulseGradient'] {
 a[data-list-item-id*='channels_'] > div[class*='linkBottom_'] {
     display: none !important;
 }
+
+/* Hide call timer */
+div[class*='channelInfo_'] > div[class*='tabularNumbers_'] {
+  display: none !important;
+}
