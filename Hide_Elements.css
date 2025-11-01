@@ -89,3 +89,8 @@ a[data-list-item-id*='channels_'] > div[class*='linkBottom_'] {
 div[class*='channelInfo_'] > div[class*='tabularNumbers_'] {
   display: none !important;
 }
+
+/* Hide profile effects */
+[class*="profileEffects"] {
+  display:none;
+}
