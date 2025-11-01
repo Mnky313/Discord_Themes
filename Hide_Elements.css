@@ -91,6 +91,10 @@ div[class*='channelInfo_'] > div[class*='tabularNumbers_'] {
 }
 
 /* Hide profile effects */
-[class*="profileEffects"] {
+[class*="profileEffects"], div[class*='member_'] > div[class*='childContainer_'] > div[class*='container_'] {
   display:none;
+}
+span[class*='username_'] {
+  font-family: inherit !important;
+  letter-spacing: inherid !important;
 }
