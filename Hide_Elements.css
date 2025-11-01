@@ -91,7 +91,7 @@ div[class*='channelInfo_'] > div[class*='tabularNumbers_'] {
 }
 
 /* Hide profile effects */
-[class*="profileEffects"], div[class*='member_'] > div[class*='childContainer_'] > div[class*='container_'], div[class*='member_'] > div[class*='memberInner_'] > div[class*='avatar_'] > div[class*='wrapper_'] > div[class*='mask_'] {
+[class*="profileEffects"], div[class*='member_'] > div[class*='childContainer_'] > div[class*='container_'], [class*='avatarDecoration'] {
   display:none;
 }
 span[class*='username_'] {
