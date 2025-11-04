@@ -40,8 +40,8 @@ div[class*='premiumTab'], div[aria-label='Subscriptions'], div[aria-label='Merch
   display: none;
 }
 
-/* Hide shop, Nitro buttons in DMs */
-li:has(a[href='/shop']), li:has(a[href='/store']) {
+/* Hide shop, Nitro, Quests buttons in DMs */
+li:has(a[href='/shop']), li:has(a[href='/store']), li:has(a[href='/quest-home']) {
   display: none;
 }
 
