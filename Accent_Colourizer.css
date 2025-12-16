@@ -8,6 +8,8 @@
 :is(:root, .theme-light, .theme-dark, .theme-darker, .theme-midnight, .visual-refresh) {
   /* Change this first value */
   --brand: rgb(255, 0, 255) !important;
+  --mention: hsla(300, 100%, 50%, 0.08) !important;
+  --mention-hover: hsla(300, 100%, 50%, 0.05) !important;
 
   --brand-100: var(--brand) !important;
   --brand-130: var(--brand) !important;
@@ -162,8 +164,6 @@
   --opacity-blurple-88: hsla(from var(--brand), 100%, 50%, 0.88) !important;
   --opacity-blurple-92: hsla(from var(--brand), 100%, 50%, 0.92) !important;
   --opacity-blurple-96: hsla(from var(--brand), 100%, 50%, 0.96) !important;
-  --mention: hsla(from var(--brand), 100%, 50%, 0.08) !important;
-  --mention-hover: hsla(from var(--brand), 100%, 50%, 0.05) !important;
   --message-mentioned-background-default: var(--mention) !important;
   --message-mentioned-background-hover: var(--mention-hover) !important;
   --icon-feedback-warning: var(--brand) !important;
