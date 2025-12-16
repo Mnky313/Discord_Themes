@@ -2,7 +2,7 @@
  * @name         Accent Colourizer
  * @description  Replaces Discord Accent Colours with Selected Colour
  * @author       Katzteam
- * @version      2.0
+ * @version      3.0
  */
 
 :is(:root, .theme-light, .theme-dark, .theme-darker, .theme-midnight, .visual-refresh) {

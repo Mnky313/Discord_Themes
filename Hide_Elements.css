@@ -2,46 +2,55 @@
  * @name         Hide Useless/Paid Elements
  * @description  Hides a bunch of useless/Nitro related elements
  * @author       Katzteam
- * @version      2.0
+ * @version      3.0
  */
 
 /* Hide titlebar elements */
-div[class*='bar_'] > div[class*='trailing'] {
+div[class*='-bar']>div[class*='trailing'] {
   display: none;
 }
 
 /* Hide threads & weird useless dot from top bar */
-div[class*='toolbar'] > div[aria-label='Threads'], div[class*='toolbar'] > svg[class*='dot_'] {
+div[class*='toolbar']>div[aria-label='Threads'],
+div[class*='toolbar']>svg[class*='-dot'] {
   display: none;
 }
 
 /* Hide notice bars (claim free gifts with nitro, etc.) */
-div[class*='container_'] > div[class*='base_'] > div[class*='notice_'] {
-    display:none !important;
+div[class*='-container']>div[class*='-base']>div[class*='-notice'] {
+  display: none !important;
 }
 
 /* Hide Events */
-li:has(div[id*='upcoming-events']), ul[aria-label='Channels'] > div[style='height: 12px;'] {
+li:has(div[id*='upcoming-events']),
+ul[aria-label='Channels']>div[style='height: 12px;'] {
   display: none;
 }
 
 /* Hide Server Boosts in channel list */
-li:has(div[id*='skill-trees']), ul[aria-label='Channels'] > div[style='height: 12px;'] {
+li:has(div[id*='skill-trees']),
+ul[aria-label='Channels']>div[style='height: 12px;'] {
   display: none;
 }
 
 /* Hide gift button */
-div[aria-label='Send a gift'], button[aria-label='Send a gift'] {
+div[aria-label='Send a gift'],
+button[aria-label='Send a gift'] {
   display: none !important;
 }
 
 /* Hide Nitro, Boost, Merch, Subscription settings */
-div[class*='premiumTab'], div[aria-label='Subscriptions'], div[aria-label='Merch'], div[aria-label='Nitro'] + div[class*='item_'] {
+div[class*='premiumTab'],
+div[aria-label='Subscriptions'],
+div[aria-label='Merch'],
+div[aria-label='Nitro']+div[class*='-item'] {
   display: none;
 }
 
 /* Hide shop, Nitro, Quests buttons in DMs */
-li:has(a[href='/shop']), li:has(a[href='/store']), li:has(a[href='/quest-home']) {
+li:has(a[href='/shop']),
+li:has(a[href='/store']),
+li:has(a[href='/quest-home']) {
   display: none;
 }
 
@@ -56,22 +65,24 @@ div[class*='hoverButtonGroup']:has(div[aria-label='Edit Image with Apps']) {
 }
 
 /* Hide Activity Sidebar */
-div[class*='membersGroup']:has(span[class*='headerContainer']), div[class*='openOnHover'] {
+div[class*='membersGroup']:has(span[class*='headerContainer']),
+div[class*='openOnHover'] {
   display: none;
 }
 
 /* Hide hover buttons from channels */
-div[class*='children'] > span > div > svg[class*='actionIcon'] {
+div[class*='children']>span>div>svg[class*='actionIcon'] {
   display: none;
 }
 
 /* Hide games/promoted apps in Applications launcher */
-section[aria-label='Application Launcher'] > div > div > div > div > div > div > div > div > div:nth-child(n+3)  {
+section[aria-label='Application Launcher']>div>div>div>div>div>div>div>div>div:nth-child(n+3) {
   display: none;
 }
 
 /* Hide discovery/download apps buttons on server sidebar */
-div[class*='listItem']:has(div[class*='discoveryIcon']), div[class*='listItem']:has(div[aria-label*='Download Apps']) {
+div[class*='listItem']:has(div[class*='discoveryIcon']),
+div[class*='listItem']:has(div[aria-label*='Download Apps']) {
   display: none !important;
 }
 
@@ -81,37 +92,50 @@ div[class*='pulseGradient'] {
 }
 
 /* Hide edit channel status when joined to a voice channel */
-a[data-list-item-id*='channels_'] > div[class*='linkBottom_'] {
-    display: none !important;
+a[data-list-item-id*='-channels']>div[class*='-linkBottom'] {
+  display: none !important;
 }
 
 /* Hide call timer */
-div[class*='channelInfo_'] > div[class*='tabularNumbers_'] {
+div[class*='-channelInfo']>div[class*='-tabularNumbers'] {
   display: none !important;
 }
 
 /* Hide profile effects, username effects, avatar decorations, sidebar banners */
-[class*="profileEffects"], div[class*='member_'] > div[class*='childContainer_'] > div[class*='container_'], [class*='avatarDecoration'], span[class*='glowContainer_'] {
-  display:none;
+[class*="profileEffects"],
+div[class*='-member']>div[class*='-childContainer']>div[class*='-container'],
+[class*='avatarDecoration'],
+span[class*='-glowContainer'] {
+  display: none;
 }
 
-[class*='zillaSlab_'], [class*='cherryBomb_'], [class*='chicle_'], [class*='museoModerno_'], [class*='neoCastel_'], [class*='pixelify_'], [class*='sinistre_'], [class*='gradient_'] {
+[class*='-zillaSlab'],
+[class*='-cherryBomb'],
+[class*='-chicle'],
+[class*='-museoModerno'],
+[class*='-neoCastel'],
+[class*='-pixelify'],
+[class*='-sinistre'],
+[class*='-gradient'] {
   font-family: var(--font-display) !important;
   letter-spacing: inherit !important;
 }
 
-[class*='neon_'], [class*='toon_'], [class*='pop_'] {
-    -webkit-text-stroke-width: 0px !important;
-    -webkit-text-stroke-color: var(--white-500) !important;
-    --custom-pop-stroke-width: 0px !important;
-    --custom-pop-bottom-translate_3d: 0em !important;
-    --custom-toon-stroke-color: var(--white-500) !important;
-    --custom-toon-stroke-width: 0px !important;
-    --custom-toon-margin: 0px !important;
+[class*='-neon'],
+[class*='-toon'],
+[class*='-pop'] {
+  -webkit-text-stroke-width: 0px !important;
+  -webkit-text-stroke-color: var(--white-500) !important;
+  --custom-pop-stroke-width: 0px !important;
+  --custom-pop-bottom-translate_3d: 0em !important;
+  --custom-toon-stroke-color: var(--white-500) !important;
+  --custom-toon-stroke-width: 0px !important;
+  --custom-toon-margin: 0px !important;
 
 }
 
-[class*='effectText_'], [class*='showEffect_'] {
+[class*='-effectText'],
+[class*='-showEffect'] {
   --custom-display-name-styles-main-color: var(--white-500) !important;
   --custom-display-name-styles-light-1-color: var(--white-500) !important;
   --custom-display-name-styles-light-2-color: var(--white-500) !important;
@@ -123,7 +147,9 @@ div[class*='channelInfo_'] > div[class*='tabularNumbers_'] {
   --custom-display-name-styles-gradient-end-color: var(--white-500) !important;
 }
 
-[class*='animated_'], [class*='animated_'] > *, [class*='animated_'] > ::before {
+[class*='-animated'],
+[class*='-animated']>*,
+[class*='-animated']> ::before {
   animation: none !important;
   animation-iteration-count: 0;
 }
