@@ -1,14 +1,14 @@
 /* ==UserStyle==
-@name         Discord Accent Colour
+@name         Discord Hide Elements
 @namespace    discord.com
-@description  Changes Discord's blurple accent colour
+@description  Hides a bunch of useless/Nitro related elements from Discord
 @author       katzteam (https://github.com/Mnky313)
 @homepageURL  https://github.com/Mnky313/Discord_Themes
 @supportURL   https://github.com/Mnky313/Discord_Themes/issues
-@updateURL    https://raw.githubusercontent.com/Mnky313/Discord_Themes/refs/heads/main/Accent_Colourizer.user.style
+@updateURL    https://raw.githubusercontent.com/Mnky313/Discord_Themes/refs/heads/main/Hide_Elements.user.style
 @preprocessor stylus
 @version      3.1.0
-==/UserStyle== */
+==/UserStyle==*/
 
 /* Hide titlebar elements */
 div[class*='-bar']>div[class*='trailing'] {
