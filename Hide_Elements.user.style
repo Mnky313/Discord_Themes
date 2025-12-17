@@ -1,3 +1,15 @@
+/* ==UserStyle==
+@name         Discord Accent Colour
+@namespace    discord.com
+@description  Changes Discord's blurple accent colour
+@author       katzteam (https://github.com/Mnky313)
+@homepageURL  https://github.com/Mnky313/Discord_Themes
+@supportURL   https://github.com/Mnky313/Discord_Themes/issues
+@updateURL    https://raw.githubusercontent.com/Mnky313/Discord_Themes/refs/heads/main/Accent_Colourizer.user.style
+@preprocessor stylus
+@version      3.1.0
+==/UserStyle== */
+
 /* Hide titlebar elements */
 div[class*='-bar']>div[class*='trailing'] {
   display: none;

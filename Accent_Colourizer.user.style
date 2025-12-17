@@ -1,6 +1,20 @@
+/* ==UserStyle==
+@name         Discord Hide Elements
+@namespace    discord.com
+@description  Hides a bunch of useless/Nitro related elements from Discord
+@author       katzteam (https://github.com/Mnky313)
+@homepageURL  https://github.com/Mnky313/Discord_Themes
+@supportURL   https://github.com/Mnky313/Discord_Themes/issues
+@updateURL    https://raw.githubusercontent.com/Mnky313/Discord_Themes/refs/heads/main/Hide_Elements.user.style
+@preprocessor stylus
+@version      3.1.0
+
+@var color accent 'Accent' #FF00FF
+==/UserStyle== */
+
 :is(:root, .theme-light, .theme-dark, .theme-darker, .theme-midnight, .visual-refresh) {
   /* Change this first value */
-  --brand: rgb(255, 0, 255) !important;
+  --brand: accent !important;
 
   --brand-100: var(--brand) !important;
   --brand-130: var(--brand) !important;
