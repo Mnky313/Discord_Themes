@@ -27,6 +27,11 @@ ul[aria-label='Channels']>div[style='height: 12px;'] {
   display: none;
 }
 
+/* Boost Progress, Channels & Roles, Server Guide */
+ul[aria-label='Channels']>:is(div, li):not(li:has(div>div>a[href*='/channels']) ~ :is(div, li), li:has(div>div>a[href*='/channels']), div[aria-hidden='true'], li:has(div>div>h3)) {
+  display: none;
+}
+
 /* Hide Server Boosts in channel list */
 li:has(div[id*='skill-trees']),
 ul[aria-label='Channels']>div[style='height: 12px;'] {
@@ -40,10 +45,17 @@ button[aria-label='Send a gift'] {
 }
 
 /* Hide Nitro, Boost, Merch, Subscription settings */
-div[class*='premiumTab'],
-div[aria-label='Subscriptions'],
-div[aria-label='Merch'],
-div[aria-label='Nitro']+div[class*='-item'] {
+div[data-settings-sidebar-item='subscriptions_panel'],
+div[data-settings-sidebar-item='premium_guild_subscriptions_panel'],
+div[data-settings-sidebar-item='nitro_panel'],
+div[data-settings-sidebar-item='billing_panel'] {
+  display: none;
+}
+
+/* Hide Connections, Authorized Apps, Family Center settings */
+div[data-settings-sidebar-item='family_center_panel'],
+div[data-settings-sidebar-item='authorized_apps_panel'],
+div[data-settings-sidebar-item='connections_panel'] {
   display: none;
 }
 
