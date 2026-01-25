@@ -158,3 +158,13 @@ span[class*='glowContainer_'] {
   animation: none !important;
   animation-iteration-count: 0;
 }
+
+/* Voice connections action buttons */
+div[class*='actionButtons_'] {
+  display: none;
+}
+
+/* Voice invite people in user list */
+div[class*='animation_']:has(div[aria-label*='Voice Invite Suggestions']) {
+  display: none;
+}

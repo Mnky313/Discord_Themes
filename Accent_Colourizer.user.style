@@ -7,7 +7,7 @@
 @supportURL   https://github.com/Mnky313/Discord_Themes/issues
 @updateURL    https://raw.githubusercontent.com/Mnky313/Discord_Themes/refs/heads/main/Accent_Colourizer.user.style
 @preprocessor stylus
-@version      3.2.0
+@version      3.3.0
 
 @var color accent 'Accent' #FF00FF
 ==/UserStyle== */
@@ -176,6 +176,7 @@
   --background-message-highlight-hover: var(--mention-hover) !important;
   --background-mentioned: var(--mention) !important;
   --background-mentioned-hover: var(--mention-hover) !important;
+  --background-feedback-warning: var(--mention-hover) !important;
   --mention-background: var(--mention) !important;
   --mention-foreground: accent !important;
   --info-warning-foreground: accent !important;
@@ -187,8 +188,17 @@ div[class*='checked'] {
   background-color: accent !important;
 }
 
+/* Really discord, no class for checked on new settings menu... */
+div[class*='switchIndicator_']:has(svg[style='left: 24px;']) {
+  background-color: accent !important;
+}
+
 div[class*='checked']>svg>svg>path {
   fill: accent !important;
+}
+
+div[class*='baseControlItemTrailingElements_'] > button > svg > path {
+    fill: accent !important;
 }
 
 /* Add server button */

@@ -164,6 +164,7 @@
   --background-message-highlight-hover: var(--mention-hover) !important;
   --background-mentioned: var(--mention) !important;
   --background-mentioned-hover: var(--mention-hover) !important;
+  --background-feedback-warning: var(--mention-hover) !important;
   --mention-background: var(--mention) !important;
   --mention-foreground: var(--brand) !important;
   --info-warning-foreground: var(--brand) !important;
@@ -175,8 +176,17 @@ div[class*='checked'] {
   background-color: var(--brand) !important;
 }
 
+/* Really discord, no class for checked on new settings menu... */
+div[class*='switchIndicator_']:has(svg[style='left: 24px;']) {
+  background-color: accent !important;
+}
+
 div[class*='checked']>svg>svg>path {
-  fill: var(--brand) !important;
+  fill: accent !important;
+}
+
+div[class*='baseControlItemTrailingElements_']>button>svg>path {
+  fill: accent !important;
 }
 
 /* Add server button */
