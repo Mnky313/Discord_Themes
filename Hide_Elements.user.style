@@ -182,6 +182,6 @@ div[class*='animation_']:has(div[aria-label*='Voice Invite Suggestions']) {
 }
 
 /* Voice channel highlight */
-div[class*='voiceChannelHighlightContainer_'] {
+li[class*='voiceChannelHighlightContainer_'] {
   display: none;
 }
