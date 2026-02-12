@@ -170,6 +170,7 @@ div[class*='animation_']:has(div[aria-label*='Voice Invite Suggestions']) {
 }
 
 /* Voice channel highlight */
-li[class*='voiceChannelHighlightContainer_'] {
+div[class*='voiceChannelHighlightBorder_'],
+div[class*='voiceChannelHighlightGlow_'] {
   display: none;
 }
