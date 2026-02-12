@@ -168,3 +168,8 @@ div[class*='actionButtons_'] {
 div[class*='animation_']:has(div[aria-label*='Voice Invite Suggestions']) {
   display: none;
 }
+
+/* Voice channel highlight */
+div[class*='voiceChannelHighlightContainer_'] {
+  display: none;
+}
