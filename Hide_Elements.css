@@ -174,3 +174,13 @@ div[class*='voiceChannelHighlightBorder_'],
 div[class*='voiceChannelHighlightGlow_'] {
   display: none;
 }
+
+/* Quests Icon */
+svg[class*='questsIcon_'] {
+  display: none;
+}
+
+/* Quest available popup on user list (could hide other popups */
+div[id*='popout_']:has(div[class*='container_'] > button > div[class*='buttonChildrenWrapper_'] > div[class*='buttonChildren_'] > span[class*='lineClamp1_']) {
+  display: none;
+}
