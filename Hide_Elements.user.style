@@ -44,8 +44,8 @@ ul[aria-label='Channels']>div[style='height: 12px;'] {
 }
 
 /* Hide gift button */
-div[aria-label='Send a gift'],
-button[aria-label='Send a gift'] {
+div[aria-label='Give a gift'],
+button[aria-label='Give a gift'] {
   display: none !important;
 }
 
