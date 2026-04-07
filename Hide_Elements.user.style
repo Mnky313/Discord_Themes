@@ -196,3 +196,8 @@ svg[class*='questsIcon_'] {
 div[id*='popout_']:has(div[class*='container_'] > button > div[class*='buttonChildrenWrapper_'] > div[class*='buttonChildren_'] > span[class*='lineClamp1_']) {
     display: none;
 }
+
+/* Voice channel icon in chat */
+div[class*='voiceChannelBadgeWrapper_'] {
+  display: none;
+}
