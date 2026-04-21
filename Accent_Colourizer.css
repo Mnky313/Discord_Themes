@@ -197,3 +197,8 @@ div[class*='baseControlItemTrailingElements_']>button>svg>path {
 svg[class*='circleIcon_db6521'] {
   color: rgb(var(--accent-red), var(--accent-green), var(--accent-blue));
 }
+
+/* Reaction background */
+div[class*=reactionMe_]>div[class*=reactionInner] {
+  background-color: rgb(var(--accent-red), var(--accent-green), var(--accent-blue), .08) !important;
+}

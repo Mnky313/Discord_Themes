@@ -205,3 +205,8 @@ div[class*='baseControlItemTrailingElements_'] > button > svg > path {
 svg[class*='circleIcon_db6521'] {
   color: accent;
 }
+
+/* Reaction background */
+div[class*=reactionMe_]>div[class*=reactionInner] {
+  background-color: rgba(accent, .08) !important;
+}
