@@ -1,0 +1,159 @@
+{
+    "name": "BlackNPink",
+    "description": "AMOLED Black with Pink Accent",
+    "authors": [
+        {
+            "name": "katzteam",
+            "id": "148531790884241409"
+        }
+    ],
+    "semanticColors": {
+        "INTERACTIVE_ACTIVE": [
+            "#FF00FF"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#880088"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#000000"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#000000"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#000000"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": [
+            "#121212"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#000000"
+        ],
+        "SPINE_DEFAULT": [
+            "#000000"
+        ],
+        "BORDER_SUBTLE": [
+            "#000000"
+        ],
+        "DIVIDER_STRONG": [
+            "#000000"
+        ],
+        "DIVIDER_SUBTLE": [
+            "#000000"
+        ],
+        "THEME_LOCKED_BLUR_FALLBACK": [
+            "#000000"
+        ],
+        "CHAT_INPUT_CONTAINER_BACKGROUND": [
+            "#000000"
+        ],
+        "STAGE_CARD_PILL_BG": [
+            "#000000"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#000000"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#FF00FF"
+        ],
+        "BUTTON_OUTLINE_BRAND_BACKGROUND": [
+            "#FF00FF"
+        ],
+        "BUTTON_OUTLINE_BRAND_BOARDER": [
+            "#FF00FF"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#000000"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#000000"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#000000"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#000000"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#000000"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#000000"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#000000"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#000000"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [
+            "#121212"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+            "#121212"
+        ],
+        "REDESIGN_BUTTON_PRIMARY_BACKGROUND": [
+            "#FF00FF"
+        ],
+        "REDESIGN_BUTTON_TERTIARY_BACKGROUND": [
+            "#080808"
+        ],
+        "RESDIGN_CHAT_INPUT_BACKGROUND": [
+            "#000000"
+        ],
+        "BG_BASE_PRIMARY": [
+            "#000000"
+        ],
+        "TOAST_BG": [
+            "#000000"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "transparent"
+        ],
+        "TEXT_LINK": [
+            "#FF00FF"
+        ],
+        "CHANNEL_ICON": [
+            "#FF00FF"
+        ],
+        "CHAT_BACKGROUND": [
+            "#000000"
+        ],
+        "CARD_PRIMARY_BG": [
+            "#000000"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "#320032"
+        ],
+        "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
+            "#000000",
+            "#000000",
+            "#000000"
+        ]
+    },
+    "rawColors": {
+        "BRAND": "#FF00FF",
+        "BRAND_260": "#FF00FF",
+        "BRAND_360": "#FF00FF",
+        "BRAND_500": "#FF00FF",
+        "BRAND_560": "#FF00FF",
+        "PLUM_1": "#FF00FF",
+        "PLUM_11": "#000000",
+        "PLUM_17": "#000000",
+        "PLUM_18": "#000000",
+        "PLUM_19": "#000000",
+        "PLUM_20": "#000000",
+        "PLUM_22": "#000000",
+        "PLUM_23": "#000000",
+        "PLUM_24": "#000000",
+        "YELLOW_260": "#FF00FF",
+        "YELLOW_300": "#FF00FF",
+        "PRIMARY_560": "#000000",
+        "PRIMARY_600": "#000000",
+        "PRIMARY_630": "#000000",
+        "PRIMARY_660": "#000000",
+        "PRIMARY_700": "#000000",
+        "PRIMARY_800": "#000000"
+    },
+    "spec": 2
+}

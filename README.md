@@ -24,3 +24,7 @@ Elements hidden:
 * Activity Sidebar in members list
 * Create Invite/Chat/Settings buttons on hovering channels in channel list
 * Games/Promoted Apps in Application menu
+
+## [Mobile](https://raw.githubusercontent.com/Mnky313/Discord_Themes/refs/heads/main/Mobile.json)
+
+AMOLED Black/Pink Theme for Kettu/Rain/Revenge/etc.
