@@ -201,3 +201,8 @@ div[id*='popout_']:has(div[class*='container_'] > button > div[class*='buttonChi
 div[class*='voiceChannelBadgeWrapper_'] {
   display: none;
 }
+
+/* Invite to Voice button in voice channel */
+div[class*='animation_']:has(div[aria-label='Invite to Voice. Press to dismiss']) {
+  display: none;
+}
