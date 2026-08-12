@@ -206,3 +206,8 @@ div[class*='voiceChannelBadgeWrapper_'] {
 div[class*='animation_']:has(div[aria-label='Invite to Voice. Press to dismiss']) {
   display: none;
 }
+
+/* Popup ads (unfinished, should block top right popups, haven't been able to capture full modal popups) */
+div[class*='clickTrapContainer_'] > div[id*='popout_']:has(div[data-mana-component='popover'] > div[class*='popover_'][data-dialog='non-modal']) {
+  display: none;
+}
