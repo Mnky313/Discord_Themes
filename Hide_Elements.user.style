@@ -131,6 +131,7 @@ span[class*='glowContainer_'] {
 [class*='dnsFont_'],
 [class*='showEffect_'] {
   font-family: var(--font-display) !important;
+  letter-spacing: 0px !important;
   -webkit-text-stroke-width: 0px !important;
   -webkit-text-stroke-color: var(--white-500) !important;
   --custom-display-name-styles-main-color: var(--white-500) !important;
@@ -150,6 +151,8 @@ span[class*='glowContainer_'] {
 }
 
 [class*='neon_'] {
+    -webkit-text-stroke-width: 0px !important;
+    -webkit-text-stroke-color: var(--white-500) !important;
     --custom-neon-shadow-radius: 0em !important;
     text-shadow: inherit !important;
 }
