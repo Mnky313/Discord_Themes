@@ -114,33 +114,13 @@ span[class*='glowContainer_'] {
   display: none;
 }
 
-[class*='zillaSlab_'],
-[class*='cherryBomb_'],
-[class*='chicle_'],
-[class*='museoModerno_'],
-[class*='neoCastel_'],
-[class*='pixelify_'],
-[class*='sinistre_'],
-[class*='gradient_'] {
+[class*='effectText_'],
+[class*='fontText_'],
+[class*='dnsFont_'],
+[class*='showEffect_'] {
   font-family: var(--font-display) !important;
-  letter-spacing: inherit !important;
-}
-
-[class*='neon_'],
-[class*='toon_'],
-[class*='pop_'] {
   -webkit-text-stroke-width: 0px !important;
   -webkit-text-stroke-color: var(--white-500) !important;
-  --custom-pop-stroke-width: 0px !important;
-  --custom-pop-bottom-translate_3d: 0em !important;
-  --custom-toon-stroke-color: var(--white-500) !important;
-  --custom-toon-stroke-width: 0px !important;
-  --custom-toon-margin: 0px !important;
-
-}
-
-[class*='effectText_'],
-[class*='showEffect_'] {
   --custom-display-name-styles-main-color: var(--white-500) !important;
   --custom-display-name-styles-light-1-color: var(--white-500) !important;
   --custom-display-name-styles-light-2-color: var(--white-500) !important;
@@ -150,6 +130,36 @@ span[class*='glowContainer_'] {
   --custom-display-name-styles-font-opacity: 1 !important;
   --custom-display-name-styles-gradient-start-color: var(--white-500) !important;
   --custom-display-name-styles-gradient-end-color: var(--white-500) !important;
+  --custom-display-name-styles-toon-stroke-color: var(--white-500) !important;
+  --custom-display-name-styles-neon-stroke-color: var(--white-500) !important;
+  --custom-display-name-styles-gradient-stops: var(--white-500), var(--white-500) !important; 
+  --custom-display-name-styles-prism-stops: var(--white-500) !important;
+  --custom-display-name-styles-prism-cycle: 100% !important; 
+}
+
+[class*='neon_'] {
+    --custom-neon-shadow-radius: 0em !important;
+    text-shadow: inherit !important;
+}
+
+[class*='toon_'] {
+    --custom-toon-stroke-color: var(--white-500) !important;
+    --custom-toon-stroke-width: 0px !important;
+    --custom-toon-margin: 0px !important;
+    /* I cannot figure out why the font is *slightly* more bold on toon/pop (it's NOT font-weight or text-shadow */
+}
+
+[class*='pop_'] {
+    --custom-pop-stroke-width: 0px !important;
+    --custom-pop-bottom-translate_3d: 0em !important;
+    /* I cannot figure out why the font is *slightly* more bold on toon/pop (it's NOT font-weight or text-shadow */
+}
+
+[class*='gummyLetter_'] {
+    font-family: var(--font-display) !important;
+    color: var(--white-500) !important;
+    animation: none !important;
+    animation-iteration-count: 0;
 }
 
 [class*='animated_'],
