@@ -212,3 +212,23 @@ div[class*='animation_']:has(div[aria-label='Invite to Voice. Press to dismiss']
 div[class*='clickTrapContainer_'] > div[id*='popout_']:has(div[data-mana-component='popover'] > div[class*='popover_'][data-dialog='non-modal']) {
   display: none;
 }
+
+/* Voice chat profile effect gradient */
+div[class*='voiceChannelEffectsContainer_'] {
+    display: none;
+}
+/* override effects/gradients with solid primary colour */
+div[class*='tileChild_'] > div[class*='content_'] > .custom-theme-background {
+    --profile-gradient-secondary-color: var(--profile-gradient-primary-color) !important;
+    --profile-gradient-overlay-color: var(--profile-gradient-primary-color) !important;
+    --profile-gradient-button-color: var(--profile-gradient-primary-color) !important;
+    --profile-gradient-modal-background-color: var(--profile-gradient-primary-color) !important;
+    --custom-theme-base-color-amount: var(--profile-gradient-primary-color) !important;
+    --custom-theme-text-color-amount: var(--profile-gradient-primary-color) !important;
+    --custom-theme-base-color-light-hsl: var(--profile-gradient-primary-color) !important;
+    --custom-theme-base-color-light: var(--profile-gradient-primary-color) !important;
+    --custom-theme-text-color-light: var(--profile-gradient-primary-color) !important;
+    --custom-theme-base-color-dark-hsl: var(--profile-gradient-primary-color) !important;
+    --custom-theme-base-color-dark: var(--profile-gradient-primary-color) !important;
+    --custom-theme-text-color-dark: var(--profile-gradient-primary-color) !important;
+}
