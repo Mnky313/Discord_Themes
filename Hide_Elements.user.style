@@ -205,8 +205,8 @@ svg[class*='questsIcon_'] {
   display: none;
 }
 
-/* Quest available popup on user list (could hide other popups */
-div[id*='popout_']:has(div[class*='container_'] > button > div[class*='buttonChildrenWrapper_'] > div[class*='buttonChildren_'] > span[class*='lineClamp1_']) {
+/* Quest available popup on user list (could hide other popups but doesn't seem to...) */
+section[class*='panels_'] > div[class*='mask'] > div[class*='wrapperVisible_'] {
     display: none;
 }
 
