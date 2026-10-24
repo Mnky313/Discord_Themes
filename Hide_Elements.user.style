@@ -244,3 +244,8 @@ div[class*='tileChild_'] > div[class*='content_'] > .custom-theme-background {
     --custom-theme-base-color-dark: var(--profile-gradient-primary-color) !important;
     --custom-theme-text-color-dark: var(--profile-gradient-primary-color) !important;
 }
+
+/* Orbs menu item in profile */
+li[class*='menuItem_']:has(path[d="M11.75 7.57a5.12 5.12 0 0 1-3.86 3.87.42.42 0 0 0 0 .82 5.1 5.1 0 0 1 3.86 3.86.42.42 0 0 0 .81 0 5.12 5.12 0 0 1 3.87-3.86.42.42 0 0 0 0-.82 5.15 5.15 0 0 1-3.87-3.86.42.42 0 0 0-.81-.01Z"]), li[class*='menuItem_']:has(path[d="M10.89 11.79A3 3 0 1 0 13.1 6.2a3 3 0 0 0-2.22 5.58Z"])::after  {
+    display: none;
+}
