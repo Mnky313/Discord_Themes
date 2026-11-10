@@ -172,6 +172,13 @@ span[class*='glowContainer_'] {
   animation-iteration-count: 0;
 }
 
+ul[aria-label='Direct Messages'] > li > div[class*='interactive'] > div[class*='container_'] { 
+    display: none;
+}
+[class*='fadeIn_'] {
+  display: none !important;
+}
+
 /* Voice connections action buttons */
 div[class*='actionButtons_'] {
   display: none;
